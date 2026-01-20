@@ -53,7 +53,8 @@ app.post("/webhook", async (req, res) => {
 
 // Fungsi kirim balasan
 async function sendMessage(to, message) {
-  const url = "https://graph.facebook.com/v18.0/ID_NOMOR_META/messages";
+  const url = "https://graph.facebook.com/v18.0/870312589508813
+/messages";
 
   await fetch(url, {
     method: "POST",
